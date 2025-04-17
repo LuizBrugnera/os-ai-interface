@@ -1,0 +1,19 @@
+{
+  "name": "os-ai",
+  "version": "1.0.0",
+  "description": "ChatGPT CLI que executa comandos locais via runCommand",
+  "type": "module",
+  "main": "gpt-shell.js",
+  "scripts": {
+    "start": "node gpt-shell.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0",
+    "openai": "^4.95.0"
+  },
+  "author": "Luiz Ricardo Brugnera",
+  "license": "MIT",
+  "keywords": []
+}
